@@ -10,7 +10,7 @@ nav {
 }
 
 nav a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #827E7E;
     font-weight: 600;
 }
@@ -38,47 +38,49 @@ a:hover {
 /* Intro Section */
 .intro {
     background: #D9E3E8;
-    height: 500px;
+    height: 550px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #intro-first-part {
     font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 0;
+    font-weight: 500;
+    margin-bottom: -15px;
     margin-top: 0;
 }
 
 #intro-second-part {
     font-size: 94px;
     margin-top: 0;
-    margin-bottom: 20px;
-    font-weight: 600;
+    margin-bottom: 0;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 
-#intro-third-part {
-    font-size: 32px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
+#intro-third-part, 
 #intro-fourth-part {
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 #intro-resume-btn {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 280px;
     height: 75px;
     background: #5D7A86;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,13 +88,17 @@ a:hover {
     color: white;
     border: none;
     border-radius: 10px;
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 40px;
 }
 
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #343434;
+}
+
+.letter-a {
+    color: #5D7A86;
 }
 
 /* Responsive Design - for Mobile Devices */
