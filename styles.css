@@ -92,6 +92,11 @@ a:hover {
     margin-top: 40px;
 }
 
+#intro-resume-btn:hover {
+    background: #579FBD;
+    cursor: pointer;
+}
+
 /* Intro-Context */
 .intro-context {
     width: 75%;
