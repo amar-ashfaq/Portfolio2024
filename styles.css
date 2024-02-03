@@ -7,6 +7,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     background: #F2F7F9;
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Ensure it's above other elements */
 }
 
 nav a {
@@ -100,7 +103,7 @@ a:hover {
 /* Intro-Context */
 .intro-context {
     width: 75%;
-    height: 1200px;
+    height: 1650px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -133,6 +136,42 @@ a:hover {
     font-weight: 300;
     margin-bottom: 0;
     line-height: 1.7;
+}
+
+.intro-technologies-container {
+    background: #E9EFF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    margin-top: 26px;  
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); /* Add drop shadow */
+}
+
+.intro-technologies-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-technologies-card-head {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+.intro-technologies-card-body {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 2px;
+    font-weight: 300;
+}
+
+/* projects-container */
+.projects-container {
+    background: #F2F7F9;
+    height: 1000px;
 }
 
 p {
