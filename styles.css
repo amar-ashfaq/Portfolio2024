@@ -103,11 +103,11 @@ a:hover {
 /* Intro-Context */
 .intro-context {
     width: 75%;
-    height: 1650px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 .intro-context-container {
     display: flex;
@@ -168,15 +168,101 @@ a:hover {
     font-weight: 300;
 }
 
-/* projects-container */
-.projects-container {
+/* projects */
+
+.projects-outer {
+    /* background: #6aadc7; */
     background: #F2F7F9;
+}
+
+.projects {
+    width: 75%;
     height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects-header {
+    font-family: 'Poppins', sans-serif;
+    color: #5D7A86;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: -10px;
+    margin-top: 80px;
+}
+
+.project-container {
+    display: flex;
+    align-items: start;
+    margin-top: 25px;
+}
+
+.project-detail {
+    /* border: 1px solid red; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-name {
+    font-family: 'Poppins', sans-serif;
+    color: #244B5C;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: -15px;
+}
+
+.project-context {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 50px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.project-technologies-card {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #E9EFF1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.project-technologies-card-context {
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.technologies-used {
+    font-weight: 500;
+}
+
+.project-cover-image {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+#passwordGeneratorImg {
+    height: 300px;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     color: #343434;
+    text-align: justify;
 }
 
 .letter-a {
