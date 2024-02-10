@@ -199,6 +199,15 @@ a:hover {
     margin-top: 25px;
 }
 
+.separation {
+    margin-top: 50px;
+}
+
+/* Apply the .separation rule to .project-container after the first occurrence */
+.project-container ~ .separation {
+    margin-top: 50px;
+  }
+
 .project-detail {
     /* border: 1px solid red; */
     /* height: 300px; */
@@ -258,7 +267,8 @@ a:hover {
     /* border: 1px solid red; */
 }
 
-#passwordGeneratorImg {
+#passwordGeneratorImg,
+#unitConverterImg {
     height: 300px;
 }
 
