@@ -177,7 +177,7 @@ a:hover {
 
 .projects {
     width: 75%;
-    height: 1000px;
+    height: 2000px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
