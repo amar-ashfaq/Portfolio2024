@@ -167,10 +167,10 @@ a:hover {
 
 /* projects */
 .projects {
-    background-color: #5D7A86;
+    background-color: #F2F7F9;
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    height: 350vh;
 }
 
 .projects-header {
@@ -179,7 +179,7 @@ a:hover {
     margin-right: auto;
     margin-top: 50px;
     font-family: 'Poppins', sans-serif;
-    color: #343434;
+    color: #5D7A86;
 }
 
 .project {
@@ -188,7 +188,7 @@ a:hover {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     align-items: center;
 }
 
@@ -199,15 +199,16 @@ a:hover {
 .project-details {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .project-name {
     font-size: 36px;
     margin-top: 0;
     font-family: 'Poppins', sans-serif;
-    color: #343434;
+    color: #244B5C;
     width: fit-content;
+    font-weight: 500;
 }
 
 .project-info {
@@ -216,7 +217,7 @@ a:hover {
 
 .project-technologies {
     display: flex;
-    background-color: #A0B4BA;
+    background-color: #E9EFF1;
     width: fit-content;
     border-radius: 10px 0 10px 0;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -233,7 +234,7 @@ a:hover {
 
 .project-thumbnail {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 10px;
     align-items: center;
 }
