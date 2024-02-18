@@ -189,12 +189,16 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    align-items: center;
+}
+
+.separation {
+    margin-top: 50px;
 }
 
 .project-details {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border: 2px solid red;
 }
 
@@ -203,6 +207,7 @@ a:hover {
     margin-top: 0;
     font-family: 'Poppins', sans-serif;
     color: #343434;
+    width: fit-content;
 }
 
 .project-info {
@@ -233,6 +238,10 @@ a:hover {
     align-items: center;
 }
 
+.contentSpacing {
+    margin-left: 100px;
+}
+
 .project-thumbnail img {
     height: 350px;
     max-height: 100%;
@@ -241,7 +250,6 @@ a:hover {
 p {
     font-family: 'Poppins', sans-serif;
     color: #343434;
-    /* text-align: justify; */
 }
 
 .letter-a {
