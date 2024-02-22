@@ -170,7 +170,6 @@ a:hover {
     background-color: #F2F7F9;
     display: flex;
     flex-direction: column;
-    height: 350vh;
 }
 
 .projects-header {
@@ -246,6 +245,32 @@ a:hover {
 .project-thumbnail img {
     height: 350px;
     max-height: 100%;
+}
+
+.last {
+    margin-bottom: 100px;
+}
+
+/* Footer  */
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
 }
 
 p {
