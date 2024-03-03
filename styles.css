@@ -129,8 +129,9 @@ a:hover {
 
 .intro-about-context,
 .intro-technologies-context {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 300;
+    margin-top: 26px;
     margin-bottom: 0;
     line-height: 1.7;
 }
@@ -143,6 +144,7 @@ a:hover {
     border-bottom-left-radius: 0;
     margin-top: 26px;  
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); /* Add drop shadow */
+    width: fit-content;
 }
 
 .intro-technologies-card {
@@ -154,15 +156,22 @@ a:hover {
 .intro-technologies-card-head {
     font-size: 20px;
     font-weight: 500;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-bottom: 2px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .intro-technologies-card-body {
     font-size: 20px;
-    margin-left: 30px;
-    margin-top: 2px;
+    /* margin-left: 30px; */
+    /* margin-top: 2px; */
     font-weight: 300;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* projects */
@@ -173,10 +182,11 @@ a:hover {
 }
 
 .projects-header {
-    width: 75%;
-    margin-left: auto;
+    width: fit-content;
+    /* margin-left: auto; */
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
     color: #5D7A86;
 }
@@ -189,6 +199,21 @@ a:hover {
     margin-right: auto;
     margin-top: 50px;
     align-items: center;
+}
+
+#projects-header-container {
+    width: 75%;
+}
+
+.project:last-child {
+    margin-bottom: 50px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
 }
 
 .separation {
@@ -211,7 +236,7 @@ a:hover {
 }
 
 .project-info {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .project-technologies {
@@ -224,7 +249,8 @@ a:hover {
 
 .project-technologies p {
     font-size: 20px;
-    padding: 5px 15px;
+    padding: 15px 25px;
+    margin-bottom: 0;
 }
 
 .technologies-used {
@@ -236,15 +262,29 @@ a:hover {
     /* border: 2px solid red; */
     padding: 10px;
     align-items: center;
+    justify-content: center;
 }
 
-.contentSpacing {
-    margin-left: 100px;
+.image-right-positioning {
+    justify-content: right;
 }
+
+.image-left-positioning {
+    padding-left: 0;
+    justify-content: left;
+}
+
+.container {
+    --bs-gutter-x: 1rem;
+}
+
+/* .contentSpacing {
+    margin-left: 100px;
+} */
 
 .project-thumbnail img {
-    height: 350px;
-    max-height: 100%;
+    height: 400px;
+    /* max-height: 100%; */
 }
 
 .last {
@@ -270,7 +310,7 @@ a:hover {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 p {
