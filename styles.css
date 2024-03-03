@@ -93,7 +93,8 @@ a:hover {
 }
 
 #intro-resume-btn:hover {
-    background: #579FBD;
+    background-color: #579FBD;
+    transition: background-color 0.3s ease;
     cursor: pointer;
 }
 
