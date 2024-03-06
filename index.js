@@ -1,5 +1,5 @@
 const introResumeBtn = document.querySelector("#intro-resume-btn");
-const pdfUrl = "https://drive.google.com/file/d/1q59QdqEgS8nzf2KUEW5HRiooZbjfKNgC/view?usp=sharing";
+const pdfUrl = "https://drive.google.com/file/d/1ET0tNWFwdehFGPtzdFRU2gh4g8lmJCIg/view?usp=sharing";
 
 const aboutBtn = document.querySelector("#aboutBtn");
 const projectsBtn = document.querySelector("#projectsBtn");
