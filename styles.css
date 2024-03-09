@@ -330,4 +330,36 @@ p {
     color: #5D7A86;
 }
 
+.burgerMenu {
+    display: none;
+    cursor: pointer;
+}
+
 /* Responsive Design - for Mobile Devices */
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (max-width: 767px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burgerMenu {
+        display: block;
+        background-color: #5D7A86;
+        color: white;
+        padding: 15px;
+        font-size: 24px;
+        cursor: pointer;
+        margin-right: 40px;
+        border-radius: 5px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    img {
+        width: 130px;
+    }
+}
