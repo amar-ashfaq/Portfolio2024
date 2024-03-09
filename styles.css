@@ -362,4 +362,32 @@ p {
     img {
         width: 130px;
     }
+
+    .intro-about,
+    .intro-technologies,
+    .projects-header {
+        font-size: 34px;
+    }
+
+    #intro-first-part {
+        font-size: 36px;
+    }
+
+    #intro-second-part {
+        font-size: 75px;
+    }
+
+    #intro-third-part,
+    #intro-fourth-part {
+        font-size: 20px;
+        margin: 0 40px;
+    }
+
+    #intro-resume-btn {
+        width: 250px;
+        font-size: 20px;
+    }
+    .project-name {
+        font-size: 30px;
+    }  
 }
