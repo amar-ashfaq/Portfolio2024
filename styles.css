@@ -348,7 +348,7 @@ p {
         display: block;
         background-color: #5D7A86;
         color: white;
-        padding: 15px;
+        padding: 8px 14px;
         font-size: 24px;
         cursor: pointer;
         margin-right: 40px;
@@ -360,7 +360,7 @@ p {
     }
 
     img {
-        width: 130px;
+        width: 100px;
     }
 
     .intro-about,
@@ -384,8 +384,10 @@ p {
     }
 
     #intro-resume-btn {
-        width: 250px;
-        font-size: 20px;
+        width: 220px;
+        height: 65px;
+        font-size: 18px;
+        margin-top: 30px;
     }
     .project-name {
         font-size: 30px;
