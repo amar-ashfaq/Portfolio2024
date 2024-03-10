@@ -255,7 +255,7 @@ nav a:hover {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.project-technologies p {
+.project-technologies-card-body {
     font-size: 20px;
     padding: 15px 25px;
     margin-bottom: 0;
@@ -369,7 +369,9 @@ p {
         font-size: 34px;
     }
 
-    .intro-context {
+    .intro-context,
+    #projects-header-container,
+    .project {
         width: 80%;
     }
 
@@ -399,10 +401,10 @@ p {
         margin-top: 30px;
     }
     .project-name {
-        font-size: 30px;
+        font-size: 24px;
     }
 
-    .intro-technologies-container {
+    .intro-technologies-container{
         width: 100%;
     }
 
@@ -420,5 +422,15 @@ p {
     .intro-technologies-card-body {
         font-size: 14px;
         font-weight: 400;
+    }
+
+    .project-info {
+        font-size: 16px;
+    }
+
+    .project-technologies-card-body {
+        font-size: 16px;
+        padding: 15px 10px;
+        margin-bottom: 0;
     }
 }
