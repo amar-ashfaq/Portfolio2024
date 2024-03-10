@@ -388,10 +388,19 @@ p {
         font-size: 75px;
     }
 
+    #intro-third-part {
+        margin-bottom: 20px;
+    }
+
+    #intro-fourth-part {
+        font-weight: 400;
+    }
+
     #intro-third-part,
     #intro-fourth-part {
-        font-size: 20px;
-        margin: 0 40px;
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     #intro-resume-btn {
