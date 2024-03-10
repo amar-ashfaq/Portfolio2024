@@ -9,7 +9,7 @@ const navBar = document.querySelector("#navbar");
 const projectsSection = document.querySelector("#projects");
 const offset = projectsSection.offsetTop - navBar.offsetHeight;
 
-const navLinks = document.querySelectorAll("#navbar a");
+const navLinks = document.querySelectorAll(".navLink");
 
 introResumeBtn.addEventListener("click", () => {
     introResumeBtn.href = pdfUrl;
