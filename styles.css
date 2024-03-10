@@ -369,6 +369,15 @@ p {
         font-size: 34px;
     }
 
+    .intro-context {
+        width: 80%;
+    }
+
+    .intro-about-context,
+    .intro-technologies-context {
+        font-size: 16px;
+    }
+
     #intro-first-part {
         font-size: 36px;
     }
@@ -391,5 +400,25 @@ p {
     }
     .project-name {
         font-size: 30px;
-    }  
+    }
+
+    .intro-technologies-container {
+        width: 100%;
+    }
+
+    .intro-technologies-card-head,
+    .intro-technologies-card-body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .intro-technologies-card-head {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .intro-technologies-card-body {
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
