@@ -436,8 +436,8 @@ p {
         margin-left: 40px;
     }
 
-    img {
-        /* width: 100px; */
+    .logo-img {
+        width: 100px;
     }
 
     .intro-container {
