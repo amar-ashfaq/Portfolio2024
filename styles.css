@@ -376,11 +376,31 @@ p {
     cursor: pointer;
 }
 
+.project-images {
+    display: none;
+}
+
+.mobile-hide {
+    display: block;
+}
+
 /* Responsive Design - for Mobile Devices */
 
 /* ----- MEDIA QUERIES ----- */
 
 @media (max-width: 767px) {
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    .project-images {
+        display: block;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
 
     .burgerMenu {
         display: block;
@@ -417,7 +437,7 @@ p {
     }
 
     img {
-        width: 100px;
+        /* width: 100px; */
     }
 
     .intro-container {
